@@ -1,6 +1,6 @@
 # Lesson 2 — Send mail with Mikepattyn.Email
 
-Source: [mikepattyn/Mikepattyn.Email](https://github.com/mikepattyn/Mikepattyn.Email)  
+Source: [pattynologies/Mikepattyn.Email](https://github.com/pattynologies/Mikepattyn.Email)  
 About 12 minutes. Seven steps.
 
 ## 1. What the library actually does

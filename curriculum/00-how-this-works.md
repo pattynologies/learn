@@ -11,7 +11,7 @@ These lessons are small on purpose.
 The path **First contact email** uses three public repos, as they exist today:
 
 1. [mikepattyn/.cursor](https://github.com/mikepattyn/.cursor) — `scaffold-umbrella-with-turbo-and-pnpm`
-2. [mikepattyn/Mikepattyn.Email](https://github.com/mikepattyn/Mikepattyn.Email)
+2. [pattynologies/Mikepattyn.Email](https://github.com/pattynologies/Mikepattyn.Email)
 3. [mikepattyn/Mikepattyn.Contact.Api](https://github.com/mikepattyn/Mikepattyn.Contact.Api)
 
 Do not put secrets in these files, in source, or in chat logs you will commit.

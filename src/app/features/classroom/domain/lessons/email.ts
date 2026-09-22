@@ -6,8 +6,8 @@ export const emailLesson: Lesson = {
   title: "Send mail with Mikepattyn.Email",
   summary: "Two template files, one factory, SMTP through Zoho. Password in env or Secrets Manager — never in git.",
   minutes: 12,
-  repo: "mikepattyn/Mikepattyn.Email",
-  repoUrl: "https://github.com/mikepattyn/Mikepattyn.Email",
+  repo: "pattynologies/Mikepattyn.Email",
+  repoUrl: "https://github.com/pattynologies/Mikepattyn.Email",
   steps: [
     {
       id: "what",
@@ -35,7 +35,7 @@ export const emailLesson: Lesson = {
         {
           type: "link",
           label: "Open Mikepattyn.Email",
-          href: "https://github.com/mikepattyn/Mikepattyn.Email",
+          href: "https://github.com/pattynologies/Mikepattyn.Email",
         },
       ],
     },
@@ -223,7 +223,7 @@ var password = !string.IsNullOrWhiteSpace(directPassword)
         {
           type: "link",
           label: "Open the Email tests",
-          href: "https://github.com/mikepattyn/Mikepattyn.Email",
+          href: "https://github.com/pattynologies/Mikepattyn.Email",
         },
       ],
     },

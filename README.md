@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000). Production: [learn.mikepattyn.nl](https://learn.mikepattyn.nl).
+Then open [http://localhost:3000](http://localhost:3000). Production: [learn.pattynologies.com](https://learn.pattynologies.com).
 
 ```bash
 npm test
@@ -28,7 +28,7 @@ Progress and prefs stay in the browser. Nothing is sent to a server.
 | # | Lesson | Source |
 |---|--------|--------|
 | 1 | [Scaffold a new umbrella](curriculum/01-scaffold-the-umbrella.md) | [mikepattyn/.cursor](https://github.com/mikepattyn/.cursor) |
-| 2 | [Send mail with Mikepattyn.Email](curriculum/02-the-email-package.md) | [mikepattyn/Mikepattyn.Email](https://github.com/mikepattyn/Mikepattyn.Email) |
+| 2 | [Send mail with Mikepattyn.Email](curriculum/02-the-email-package.md) | [pattynologies/Mikepattyn.Email](https://github.com/pattynologies/Mikepattyn.Email) |
 | 3 | [Wire Contact.Api on Lambda](curriculum/03-contact-api-lambda.md) | [mikepattyn/Mikepattyn.Contact.Api](https://github.com/mikepattyn/Mikepattyn.Contact.Api) |
 | 4 | [Two HTTP doors for Lambda](curriculum/04-function-url-vs-api-gateway.md) | [aws/aws-cdk](https://github.com/aws/aws-cdk) |
 

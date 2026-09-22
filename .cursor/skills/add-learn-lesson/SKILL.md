@@ -3,7 +3,7 @@ name: add-learn-lesson
 description: >-
   Author an ADHD-safe Learn lesson (one step on screen, no quizzes, no streaks)
   and publish it. Use when the user asks to add a lesson, write a Learn lesson,
-  extend the First contact email path, publish curriculum to mikepattyn/learn,
+  extend the First contact email path, publish curriculum to pattynologies/learn,
   or mentions add-learn-lesson. Do not use for the private teach workspace
   (MISSION.md / HTML lessons) or for portfolio Under the Hood articles
   (umbrella-teach). Do not use for scaffold-umbrella-with-turbo-and-pnpm.
@@ -32,7 +32,7 @@ they want. Nothing grades them.
 | What | Where |
 |------|--------|
 | This skill | [mikepattyn/.cursor](https://github.com/mikepattyn/.cursor) → `skills/add-learn-lesson/` |
-| Lesson markdown | [mikepattyn/learn](https://github.com/mikepattyn/learn) → `curriculum/` |
+| Lesson markdown | [pattynologies/learn](https://github.com/pattynologies/learn) → `curriculum/` |
 | Interactive catalog | Learn app → `src/app/features/classroom/domain/lessons/` when that tree is in the workspace |
 
 Do **not** put lesson bodies in this repo. `.cursor` holds skills. `learn`
@@ -55,7 +55,7 @@ Progress:
 - [ ] 5. Wire the catalog
 - [ ] 6. Write curriculum markdown
 - [ ] 7. ADHD + secrets pass
-- [ ] 8. Publish to mikepattyn/learn
+- [ ] 8. Publish to pattynologies/learn
 ```
 
 On resume, skip ticks that are already done. Do not start a second lesson
@@ -83,7 +83,7 @@ If they named a private repo, stop and say the classroom is public.
 
 In parallel:
 
-- `curriculum/` on `mikepattyn/learn` (or a fresh clone)
+- `curriculum/` on `pattynologies/learn` (or a fresh clone)
 - `src/app/features/classroom/domain/lessons/` if the Learn app is in this workspace
 - The source repo the lesson teaches (README + the files you will quote)
 
@@ -126,7 +126,7 @@ Match the templates. No new UI chrome, no quizzes, no streaks.
 
 ## 5. Curriculum markdown
 
-Write `curriculum/NN-kebab-title.md` for [mikepattyn/learn](https://github.com/mikepattyn/learn).
+Write `curriculum/NN-kebab-title.md` for [pattynologies/learn](https://github.com/pattynologies/learn).
 
 Same steps, same order, same commands as the TypeScript. Markdown is the
 portable copy: headings for steps, fenced code, tables for env vars, a
@@ -152,7 +152,7 @@ Before publish:
 
 Follow [references/publish.md](references/publish.md).
 
-This skill **does** push curriculum to `mikepattyn/learn` when the user
+This skill **does** push curriculum to `pattynologies/learn` when the user
 asked to add or publish a lesson. That is the job.
 
 Do **not** push [mikepattyn/.cursor](https://github.com/mikepattyn/.cursor)

@@ -1,11 +1,11 @@
 # Publish
 
-Curriculum is public. Push only `mikepattyn/learn` for a lesson run.
+Curriculum is public. Push only `pattynologies/learn` for a lesson run.
 
-## Learn repo (`mikepattyn/learn`)
+## Learn repo (`pattynologies/learn`)
 
 ```bash
-git clone https://github.com/mikepattyn/learn.git
+git clone https://github.com/pattynologies/learn.git
 # write curriculum/NN-kebab-title.md
 # update README.md path table
 git add curriculum/NN-kebab-title.md README.md
@@ -46,7 +46,7 @@ scaffold writes, not for Learn.
 ## GitHub CLI
 
 `gh` as `mikepattyn` is enough. Do not create a new repo.
-`mikepattyn/.cursor` and `mikepattyn/learn` already exist and are public.
+`mikepattyn/.cursor` and `pattynologies/learn` already exist and are public.
 
 If push is denied, stop and say so. Do not open a fork.
 
